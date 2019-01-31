@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pizzia - Zia API for hungry developers</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pizzia - Zia API for hungry developers">
+    <meta name="author" content="Pizzia Team">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body class="landing-page">
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+<div class="page-wrapper">
+
+    <header class="header text-center">
+        <div class="container">
+            <div class="branding">
+                <h1 class="logo">
+                    <span class="text-bold"><img id="logo" src="assets/images/icon.png" /> Pizzia</span>
+                </h1>
+            </div>
+            <div class="tagline">
+                <p>L'API Zia pour les développeurs affamés</p>
+                <p>Fait avec <i class="fas fa-heart"></i> pour Epitech Paris</p>
+            </div>
+            <div class="social-container">
+                <div class="github-btn mb-2">
+                    <a class="github-button" href="https://github.com/ThomFree/Pizzia" data-size="large" aria-label="https://github.com/ThomFree/Pizzia">Repository</a>
+                </div>
+                <div class="telegram-btn mb-2">
+                    <a class="telegram-button" href="https://t.me/joinchat/ILA_wllVCrs-r_-ogoXCBg" data-size="large" aria-label="">Telegram</a>
+                </div>
+            </div>
+        </div>
+    </header>
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><i class="icon fa fa-paper-plane"></i> Introduction</h1>
+                    <div class="meta"><i class="far fa-clock"></i> Dernière mise à jour: le 31 janvier 2019</div>
+                </div><!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="intro-section" class="doc-section">
+                                <h2 class="section-title">Pizzia, c'est quoi ?</h2>
+                                <div class="section-block">
+                                    <p>Si vous vous trouvez sur cette page, c'est probablement que vous réalisez le projet <b>Zia d'Epitech</b>, ça tombe bien le but de <b>Pizzia</b> est de vous donner un moyen <b>simple</b> et <b>cohérent</b> de le réaliser en vous proposant de respecter et d'implémenter une API pour vos modules HTTP.</p>
+                                    <p>Grâce à Pizzia, vous allez donc <b>facilement</b> et <b>rapidemment</b> pouvoir construire l'architecture de votre Zia en suivant nos nombreuses <b>explications</b> et <b>schémas</b> ainsi que réaliser vos différents modules de manière <b>claire</b> et <b>ludique</b>.</p>
+                                    <p>Tout au long de votre projet, <b>nous nous engageons</b> à répondre à l'ensemble de vos questions <b>relatives à l'API</b> ou à la <b>conception de votre architecture</b> en suivant la philosophie de l'API et vous aider (dans la mesure du possible) à <b>implémenter</b> l'API Pizzia.</p>
+                                    <p>Enfin, vous pouvez à tout moment <b>contribuer à Pizzia</b> (c'est d'ailleurs avec plaisir que nous acceuillerons vos contributions) et <b>échanger avec nous</b> sur quelque chose qui ne vous plait pas sur notre API (par exemple un choix de conception, un nommage de fonction), nous pensons que nous pouvons sans cesse faire mieux et donc nous sommes toujours ouvert au dialogue. Pour cela il vous suffit consulter notre <a href="faq.html">FAQ</a> pour découvrir comment contribuer.</p>
+                                </div>
+                            </section>
+                            <section id="philosophy-section" class="doc-section">
+                                <h2 class="section-title">Philosophie</h2>
+                                <div class="section-block">
+                                    <p>La philosophie de notre API tient en un mot: <b>simplicité</b>. Notre but est de fournir une API avec un <b>haut niveau d'abstraction</b> afin que vos modules puissent être écrits de la manière la plus concise possible.</p><p> De la même manière <b>qu'UNIX</b> l'exprime <i>(écrivez des programmes qui effectuent une seule chose et qui le font bien)</i> nous voulons vous permettre de réaliser des modules qui réalisent une tâche unique de manière à découper la compléxité du traitement d'un serveur web en plusieurs modules. </p><p>Pizzia prend en considération et respecte au maximum la <b>RFC2616</b> sous divers angles (comme par exemple le nommage des fonctions) afin d'offrir une API universellement compréhensible. </p>
+                        
+                                </div>
+                            </section>
+                            <section id="architecture-section" class="doc-section">
+                                <h2 class="section-title">Architecture</h2>
+                                <div class="section-block">
+                                    <p>Afin de vous inculquer la philosophie du <b>Pizzia</b>, nous allons (sans rentrer dans les détails) vous présenter l'architecture d'un serveur web avec ses différents modules implémentant Pizzia. Avant tout, il faut penser <b>haut niveau</b> pour pouvoir comprendre le fonctionnement de Pizzia. On pourrait résumer (de façon synthétique) une requête HTTP faite par votre navigateur à un serveur web avec le schéma suivant:</p>
+                        
+                                </div>
+                            </section>
+                            <section id="start-section" class="doc-section">
+                                <h2 class="section-title">C'est par où qu'on commence ?</h2>
+                                <div class="section-block">
+                                    <p>Avant tout, vous devez télécharger l'API Pizzia afin de pouvoir commencer à l'implémenter. Pour cela vous avez deux solutions: - utiliser directement notre repository sur Github en passant par le système de <a href="https://git-scm.com/docs/git-submodule">submodules</a> de GIT<br /> - télécharger directement la dernière release de notre API et la copier/coller dans votre projet.<br /><br />
+                                        Il faut savoir que durant toute l'avancée du projet, l'API est susceptible d'être modifiée (après vos retours notamments et la contribution de différents groupes), c'est pour cela que nous vous conseillons la première solution afin d'avoir constamment la dernière version de Pizzia pour votre Zia. <br /><br />Vous pouvez néanmoins utiliser la deuxième solution, nous nous engageons à faire le nécessaire pour vous avertir en cas de nouvelle version (par e-mail / Yammer ou tout autre moyen de communication) et également à ne pas faire de changements majeurs afin de vous assurer que vous n'ayez jamais de <b>réimplémentation</b> de notre API à faire au cours de votre projet. Nous ferons donc en sorte de faire évoluer l'API seulement de façon mineur.
+                                    </p>
+                                    <a href="https://github.com/ThomFree/Pizzia/releases" target="_blank" class="btn btn-green"><i class="fas fa-cloud-download-alt"></i> Télécharger la dernière release (v1.0)</a>
+                                </div>
+                            </section>
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+	                        
+	                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+	                                <a class="nav-link scrollto" href="#intro-section">Pizzia c'est quoi ?</a>
+                                    <a class="nav-link scrollto" href="#philosophy-section">Philosophie</a>
+                                    <a class="nav-link scrollto" href="#architecture-section">Architecture</a>
+                                    <a class="nav-link scrollto" href="#start-section">C'est par où qu'on commence ?</a>
+                        
+	                            </nav><!--//doc-menu-->
+	                        
+                        </div>
+                    </div><!--//doc-sidebar-->
+                </div><!--//doc-body-->              
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+        
+    
+        
+    </div><!--//page-wrapper-->
+    
+    <footer class="footer text-center">
+            <div class="container">
+                <small class="copyright">&copy; 2019 Pizzia "The Zia API for hungry developers" - design par <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a></small>
+        
+            </div>
+        </footer>
+        
+        
+        </body>
+        </html>
+
