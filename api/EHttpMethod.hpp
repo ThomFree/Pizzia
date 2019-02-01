@@ -32,6 +32,7 @@ namespace Pizzia {
 		{ "DELETE", DELETE },
 		{ "TRACE", TRACE },
 		{ "CONNECT", CONNECT },
+		{ "UNDEFINED", UNDEFINED }
 	};
 
 }
