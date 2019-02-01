@@ -3,11 +3,11 @@ The Zia API for hungry developers :pizza:
 <center><img src="https://i.imgur.com/kIxNCUr.png"/></center>
 
 ## Introduction
-Pizzia is an **API** for the **Epitech Zia** project proposed for **Paris**. Pizzia permits to make **Zia modules** in and elegant way using a **high-level abstraction** of the HTTP protocol.
+Pizzia is an **API** for the **Epitech Zia** project proposed for **Paris**. Pizzia allow you to make **Zia modules** in an elegant way using a **high-level abstraction** of the HTTP protocol.
 
-The **core idea** of the API is that modules should be considered as **pieces of puzzles**: they join one by one to produce **a chain of modules** that will then be executed by the web server: you could also call it a **pipeline** !
+The **core idea** of the API is that modules should be considered as **pieces of a puzzle**: they join one by one to produce **a chain of modules** that will then be executed by the web server: you could also call it a **pipeline** !
 
-The web server will act as **a mediator** (take a look at the [mediator design pattern](https://en.wikipedia.org/wiki/Mediator_pattern)) with its modules, it will run them **one by one** (in order of priority) by mutually passing them the following parameters:
+The web server will act as **a mediator** with its modules (take a look at the [mediator design pattern](https://en.wikipedia.org/wiki/Mediator_pattern)), it will run them **one by one** (in order of priority) by mutually passing them the following parameters:
 
 - **the request** as an object that implements the `Pizzia::IRequest` which holds all the request data.
 - **the request** as an object that implements the `Pizzia::IResponse` which holds all future response data.
