@@ -1,5 +1,8 @@
 # Pizzia
 The Zia API for hungry developers :pizza:
+
+**[French documentation and Github Page](https://thomfree.github.io/Pizzia/)**
+
 <center><img src="https://i.imgur.com/kIxNCUr.png"/></center>
 
 ## Introduction
@@ -14,12 +17,10 @@ The web server will act as **a mediator** with its modules (take a look at the [
 - **the configuration** as an object that implements `Pizzia::IMapContainer` which holds a key value wrapper of the configuration data.
 - **the session** as an object that implements `Pizzia::IMapContainer` which holds a key value wrapper of persistant data accross modules (also called session data).
 
-### A word about the map container:
+**For any details on the ```Pizzia``` interfaces and enumerations, please read :**
 *TODO*
-
-https://thomfree.github.io/Pizzia/
-## Quick start
-We have set up a tutorial (in french) to understand Pizzia and quickly start working on our API: you will find it [here](https://thomfree.github.io/Pizzia/start.html).
+*Link to Github Page Documentation*
 
 
-
+## How to get started ?
+We have set up a tutorial (in french) to understand Pizzia and quickly start working on our API: you will find it [here](https://thomfree.github.io/Pizzia/).
