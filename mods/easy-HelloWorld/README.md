@@ -7,6 +7,7 @@ Very simple pipeline with a unique module :
 <p align="center">
   <img src="https://i.imgur.com/pmp55Th.png">
 </p>
+
 ## Expected result
 If you have done everything right, you should see in your browser :
 <p align="center">
