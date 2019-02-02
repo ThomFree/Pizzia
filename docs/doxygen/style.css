@@ -1,0 +1,15 @@
+body {
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+img[alt="Logo"] {
+    max-width: 5rem;
+}
+
+.content {
+    margin-top: 5rem;
+}
+
+.m-dox-template, dl.m-dox dd, ul.m-dox li > span.m-dox {
+    color: #555;
+}
