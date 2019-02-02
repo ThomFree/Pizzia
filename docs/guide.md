@@ -6,7 +6,9 @@ Les modules ne sont qu'une partie du Zia. En effet avant que vous puissiez impl�
 
 Voici un schéma des étapes que traverse une requête :  
 
-![Schéma requête Pizzia](https://i.imgur.com/bvjzFcT.png)
+<p align="center">
+	<img width="460" height="300" src="https://i.imgur.com/bvjzFcT.png">
+</p>
 
 Les modules dans le schéma ci dessus, **sont exécutés dans un ordre bien précis**, ne pas le respecter transformerait la réponse et pourrait la rendre inutilisable. **Vous êtes libre de stocker l'ordre de vos modules comme bon vous semble.**
 
