@@ -12,12 +12,23 @@
 #pragma once
 
 namespace Pizzia {
+
+	/*
+	** You need to inherit from this interface to create your module
+	*/
 	class IModule {
 	public:
+		/*
+		** You MUST use a constructor with no parameters
+		*/
 		IModule() {}
 		virtual ~IModule() {}
 
 	public:
+		/*
+		** This function is called by the pipeline of module
+		** Modules are called one after another
+		*/
 		virtual EModuleStatus run(
 			IRequest &request,
 			IResponse &response,
@@ -25,6 +36,10 @@ namespace Pizzia {
 			IMapContainer &session
 		) = 0;
 
+		/*
+		** Get the name of the module to differentiate it from the others
+		*/
 		virtual const std::string getName() const = 0;
 	};
+
 }

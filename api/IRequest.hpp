@@ -15,6 +15,9 @@
 
 namespace Pizzia {
 
+	/*
+	** This interface describe how we save the request
+	*/
 	class IRequest {
 	public:
 		IRequest() {}
@@ -39,4 +42,5 @@ namespace Pizzia {
 		virtual void setBody(const std::string &body) = 0;
 		virtual const std::string &getBody() const = 0;
 	};
+
 }

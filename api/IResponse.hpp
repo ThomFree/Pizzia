@@ -14,6 +14,10 @@
 #pragma once
 
 namespace Pizzia {
+
+	/*
+	** This interface describe how we save the response
+	*/
 	class IResponse {
 	public:
 		IResponse() {}
@@ -36,4 +40,5 @@ namespace Pizzia {
 		virtual const std::string &getBody() const = 0;
 		virtual void setBody(const std::string &body) = 0;
 	};
+
 }

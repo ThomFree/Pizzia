@@ -11,6 +11,9 @@
 
 namespace Pizzia {
 
+	/*
+	** This enum is used to identify the HTTP Method
+	*/
 	enum EHttpMethod {
 		OPTIONS = 0,
 		GET,
@@ -23,6 +26,10 @@ namespace Pizzia {
 		UNDEFINED
 	};
 
+	/*
+	** This map stores the name of the method and their enum equivalent
+	** You can use this unordered map to convert from string to enum and vice versa
+	*/
 	const std::unordered_map<std::string, EHttpMethod> methodMap = {
 		{ "GET", GET },
 		{ "OPTIONS", OPTIONS },
