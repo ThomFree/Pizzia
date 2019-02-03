@@ -1,0 +1,45 @@
+#logo {
+    width: 50px;
+    height: 50px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+
+#logo:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/*
+ * Telegram button
+ */
+
+.telegram-btn .btn {
+    height: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #30a8e4;
+    background-image: -webkit-linear-gradient(top, #30a8e4, #087eb8);
+    background-image: -moz-linear-gradient(top, #30a8e4, #087eb8);
+    background-image: linear-gradient(to bottom, #30a8e4, #087eb8);
+    border-color: #087eb8;
+    vertical-align: bottom;
+    border-radius: 0.25em;
+}
+
+.telegram-btn .btn:hover {
+    background-color: #087eb8;
+    background-image: -webkit-linear-gradient(top, #2b95ca, #087eb8);
+    background-image: -moz-linear-gradient(top, #2b95ca, #087eb8);
+    background-image: linear-gradient(to bottom, #2b95ca, #087eb8);
+    border-color: #076c9e;
+}
+
+/*
+ * Prevent images to go beyond the container
+ */
+
+.content-inner img {
+    max-width: 100%;
+}

@@ -1409,3 +1409,11 @@ select {
   background-image: linear-gradient(to bottom, #2b95ca, #087eb8);
   border-color: #076c9e;
 }
+
+/*
+ * Prevent images to go beyond the container
+ */
+
+.content-inner img {
+  max-width: 100%;
+}
