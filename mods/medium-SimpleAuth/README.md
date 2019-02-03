@@ -38,19 +38,19 @@ Cet exemple utilise trois modules :
 - SimpleAuthModule : Ce module fabrique un contenu de page et un status en fonction de la validité des identifiants fournis en paramètres GET.
 - ResponseMakerModule : C'est le module finale, il convertit tout le contenu de ```IResponse``` en chaîne de caractère et appelle la méthode ```setRaw()```.
 ## Pipeline
-Si jamais il y a un paramètre manquant (`username` ou `password) le résultat est celui ci-dessous avec le statut suivant: `422 Unprocessable Entity` status:
+Si jamais il y a un paramètre manquant (`username` ou `password) le résultat est celui ci-dessous avec le statut suivant: `422 Unprocessable Entity`:
 
 <p align="center">
   <img src="https://i.imgur.com/cKezUnh.png">
 </p>
 
-Si les identifiants sont incorrects, le résultat est celui ci-dessous avec le statut suivant: `401 Unauthorized` status:
+Si les identifiants sont incorrects, le résultat est celui ci-dessous avec le statut suivant: `401 Unauthorized`:
 
 <p align="center">
   <img src="https://i.imgur.com/S08XeUE.png">
 </p>
 
-Enfin, si les identifiants sont corrects, le résultat est celui ci-dessous avec le statut suivant `200 OK` status:
+Enfin, si les identifiants sont corrects, le résultat est celui ci-dessous avec le statut suivant `200 OK`:
 <p align="center">
   <img src="https://i.imgur.com/vhd6ZDN.png">
 </p>
