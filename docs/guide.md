@@ -29,7 +29,24 @@ Après la lecture de ce paragraphe vous devriez avoir une bonne vision d'ensembl
 
 Afin de tester votre Zia, nous vous conseillons d'utiliser nos exemples et de comparer le rendu à celui que nous vous fournissons.
 # Comment créer son module ?
-// JEREMY OU THOMAS OU GUILLAUME
+Pour créer votre module, créer une classe qui hérite de notre classe ```IModule```.
+
+Votre classe doit contenir 2 fonctions membres :
+	- ```getName()``` qui retourne une string contenant le nom de votre module.
+	- ```run()``` qui execute le module et qui retourne un ```EModuleStatus```
+
+```run()``` prend 4 arguments qui sont :
+	- ```IRequest &req``` : Information sur la requete
+	- ```IResponse &res``` : Information sur la réponse
+	- ```IMapContainer &config``` : Paramètres unique au socket
+	- ```IMapContainer &session``` : Paramètres unique au site web
+
+
+<p align="center">
+	<img src="https://i.imgur.com/oH39LSz.png">
+</p>
+
+Voici un exemple (défini [ici](https://github.com/ThomFree/Pizzia/tree/master/mods/easy-HelloWorld)) qui permet de renvoyer "Hello World!" lors d'une requete.
 
 # Comment transformer son module en bibliothèque (lib) ?
 // VALENTIN DESSUS
