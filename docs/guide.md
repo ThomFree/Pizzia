@@ -32,14 +32,16 @@ Afin de tester votre Zia, nous vous conseillons d'utiliser nos exemples et de co
 Pour créer votre module, créer une classe qui hérite de notre classe ```IModule```.
 
 Votre classe doit contenir 2 fonctions membres :
-	- ```getName()``` qui retourne une string contenant le nom de votre module.
-	- ```run()``` qui execute le module et qui retourne un ```EModuleStatus```
+
+- ```getName()``` qui retourne une string contenant le nom de votre module.
+- ```run()``` qui execute le module et qui retourne un ```EModuleStatus```
 
 ```run()``` prend 4 arguments qui sont :
-	- ```IRequest &req``` : Information sur la requete
-	- ```IResponse &res``` : Information sur la réponse
-	- ```IMapContainer &config``` : Paramètres unique au socket
-	- ```IMapContainer &session``` : Paramètres unique au site web
+
+- ```IRequest &req``` : Information sur la requete
+- ```IResponse &res``` : Information sur la réponse
+- ```IMapContainer &config``` : Paramètres unique au socket
+- ```IMapContainer &session``` : Paramètres unique au site web
 
 
 <p align="center">
