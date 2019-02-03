@@ -1,7 +1,7 @@
 # Pizzia
 The Zia API for hungry developers :pizza:
 
-**[French documentation and Github Page](https://thomfree.github.io/Pizzia/)**
+## [[FR] French documentation and Github Page](https://thomfree.github.io/Pizzia/)
 
 <center><img src="https://i.imgur.com/kIxNCUr.png"/></center>
 
