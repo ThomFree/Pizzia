@@ -1411,9 +1411,12 @@ select {
 }
 
 /*
- * Prevent images to go beyond the container
+ * Align center + prevent images to go beyond the container
  */
 
-.content-inner img {
-  max-width: 100%;
+.content-inner img, .container img {
+    max-width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
 }
