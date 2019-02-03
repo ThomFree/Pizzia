@@ -40,8 +40,8 @@ Votre classe doit contenir 2 fonctions membres :
 
 - ```IRequest &req``` : Information sur la requete
 - ```IResponse &res``` : Information sur la réponse
-- ```IMapContainer &config``` : Paramètres unique au socket
-- ```IMapContainer &session``` : Paramètres unique au site web
+- ```IMapContainer &config``` : Paramètres unique au site web
+- ```IMapContainer &session``` : Paramètres unique au socket
 
 
 <p align="center">
