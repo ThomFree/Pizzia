@@ -16,17 +16,20 @@ class ResponseMakerModule : public IModule {
 		ResponseMakerModule() = default;
 		~ResponseMakerModule() = default;
 
-    public:
-        EModuleStatus run(IRequest &, IResponse &res, IMapContainer &, IMapContainer &) {
-            std::string raw;
-            res.getHeaders().put("Content-Length", std::to_string(res.getBody().size()));
-            raw = "HTTP/" + std::to_string(res.getHttpVersion().first) + "." + std::to_string(res.getHttpVersion().second) + " " + std::to_string(res.getStatusCode()) + " " + res.getStatusReasonPhrase() + "\r\n";
-            for (auto it = res.getHeaders().begin(); it != res.getHeaders().end(); it++)
-                raw += it->first + ": " + it->second + "\r\n";
-            raw += "\r\n" + res.getBody();
-            res.setRaw(raw);
-            return EModuleStatus::SUCCESS;
-        }
+	public:
+		/*
+		** Put everything in a string to then call res.setRaw(string)
+		*/
+		EModuleStatus run(IRequest &, IResponse &res, IMapContainer &, IMapContainer &) {
+			std::string raw;
+			res.getHeaders().put("Content-Length", std::to_string(res.getBody().size()));
+			raw = "HTTP/" + std::to_string(res.getHttpVersion().first) + "." + std::to_string(res.getHttpVersion().second) + " " + std::to_string(res.getStatusCode()) + " " + res.getStatusReasonPhrase() + "\r\n";
+			for (auto it = res.getHeaders().begin(); it != res.getHeaders().end(); it++)
+			raw += it->first + ": " + it->second + "\r\n";
+			raw += "\r\n" + res.getBody();
+			res.setRaw(raw);
+			return EModuleStatus::SUCCESS;
+		}
 		inline const std::string getName() const { return "ResponseMakerModule"; }
 
 };

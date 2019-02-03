@@ -16,7 +16,7 @@ class RequestDebuggerModule : public IModule {
 		~RequestDebuggerModule() {}
 
 	public:
-        EModuleStatus run(IRequest &, IResponse &, IMapContainer &, IMapContainer &);
+		EModuleStatus run(IRequest &, IResponse &, IMapContainer &, IMapContainer &);
 		inline const std::string getName() const { return "RequestDebuggerModule"; }
 };
 

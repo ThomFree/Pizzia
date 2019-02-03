@@ -6,14 +6,17 @@
 */
 
 #include <sstream>
+#include <iostream>
 #include <regex>
 #include "RequestParserModule.hpp"
 #include "api/EHttpMethod.hpp"
 
-//DEBUG
-#include <iostream>
-
 namespace Pizzia {
+
+/*
+** EVERYTHING BELOW IS NOT FULLY FUNCTIONNAL
+** We don't have the right to give you everything :/
+*/
 
 void RequestParserModule::_removeWhitespace(std::string &line)
 {
@@ -44,7 +47,6 @@ bool RequestParserModule::_setHttpVersion(IRequest &request, std::string version
 	}
 
 	if (versions.size() != 2) {
-		// TODO Log une erreur
 		std::cout << "Bad header" << std::endl;
 		return false;
 	} else {
@@ -53,11 +55,6 @@ bool RequestParserModule::_setHttpVersion(IRequest &request, std::string version
 	}
 }
 
-/**
- * This is experimental request URI parser, it don't work in 100% of cases for the real Zia we need to make-it in more robust way
- *
- * @param request
- */
 void RequestParserModule::_parseUriParams(IRequest &request)
 {
 	std::string url = std::string(request.getUri());
