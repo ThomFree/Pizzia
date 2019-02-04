@@ -51,4 +51,14 @@ Votre classe doit contenir 2 fonctions membres :
 Voici un exemple (défini [ici](https://github.com/ThomFree/Pizzia/tree/master/mods/easy-HelloWorld)) qui permet de renvoyer "Hello World!" lors d'une requete.
 
 # Comment transformer son module en bibliothèque (lib) ?
-En approche, encore une petite journée soyez patient ;)
+
+Tout d'abord il vous suffit de rajouter un extern à la fin la classe de votre module :
+<p align="center">
+	<img src = "https://i.imgur.com/WawXDq9.png">
+</p>
+
+Comme le module `HelloWorld` hérite de `Pizzia::IModule`, vous pouvez stocker vos 
+modules à la suite dans un vecteur de `std::unique_ptr<Pizzia::IModule>`.
+Vous pouvez ensuite transformer votre module en lib (`.so`).
+
+Ensuite, une fois votre DLWrapper codé, vous pourrez exécuter votre fonction `run()` de votre module via le pointeur retourné par votre entry Point. 
