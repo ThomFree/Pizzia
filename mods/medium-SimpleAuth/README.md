@@ -38,6 +38,12 @@ Cet exemple utilise trois modules :
 - SimpleAuthModule : Ce module fabrique un contenu de page et un status en fonction de la validité des identifiants fournis en paramètres GET.
 - ResponseMakerModule : C'est le module finale, il convertit tout le contenu de ```IResponse``` en chaîne de caractère et appelle la méthode ```setRaw()```.
 ## Pipeline
+La pipeline est très basique, mais l'ordre des modules est très important.
+<p align="center">
+  <img src="https://i.imgur.com/vsyi3sR.png">
+</p>
+
+## Résultat attendu
 Si jamais il y a un paramètre manquant (`username` ou `password) le résultat est celui ci-dessous avec le statut suivant: `422 Unprocessable Entity`:
 
 <p align="center">
