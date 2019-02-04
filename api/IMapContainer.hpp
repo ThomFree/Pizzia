@@ -18,7 +18,7 @@ namespace Pizzia {
 class IMapContainer {
 	public:
 		IMapContainer() = default;
-		virtual ~IMapContainer() = default;
+		virtual ~IMapContainer() noexcept = default;
 		IMapContainer &operator=(const IMapContainer &) = delete;
 
 	public:
