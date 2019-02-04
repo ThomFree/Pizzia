@@ -51,4 +51,4 @@ Votre classe doit contenir 2 fonctions membres :
 Voici un exemple (défini [ici](https://github.com/ThomFree/Pizzia/tree/master/mods/easy-HelloWorld)) qui permet de renvoyer "Hello World!" lors d'une requete.
 
 # Comment transformer son module en bibliothèque (lib) ?
-// VALENTIN DESSUS
+En approche, encore une petite journée soyez patient ;)

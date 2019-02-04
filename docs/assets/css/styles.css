@@ -1385,32 +1385,6 @@ select {
 }
 
 /*
- * Telegram button
- */
-
-.telegram-btn .btn {
-  height: 30px;
-  font-size: 12px;
-  font-weight: 600;
-  display: inline-block;
-  background-color: #30a8e4;
-  background-image: -webkit-linear-gradient(top, #30a8e4, #087eb8);
-  background-image: -moz-linear-gradient(top, #30a8e4, #087eb8);
-  background-image: linear-gradient(to bottom, #30a8e4, #087eb8);
-  border-color: #087eb8;
-  vertical-align: bottom;
-  border-radius: 0.25em;
-}
-
-.telegram-btn .btn:hover {
-  background-color: #087eb8;
-  background-image: -webkit-linear-gradient(top, #2b95ca, #087eb8);
-  background-image: -moz-linear-gradient(top, #2b95ca, #087eb8);
-  background-image: linear-gradient(to bottom, #2b95ca, #087eb8);
-  border-color: #076c9e;
-}
-
-/*
  * Align center + prevent images to go beyond the container
  */
 
@@ -1419,4 +1393,50 @@ select {
     text-align: center;
     margin: 10px auto;
     display: block;
+}
+
+/*
+ * Discussion groups buttons
+ */
+
+.discussion-groups-btn .btn {
+  height: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  vertical-align: bottom;
+  border-radius: 0.25em;
+  line-height: 16px;
+}
+
+.telegram-btn {
+  background-color: #30a8e4;
+  background-image: -webkit-linear-gradient(top, #30a8e4, #087eb8);
+  background-image: -moz-linear-gradient(top, #30a8e4, #087eb8);
+  background-image: linear-gradient(to bottom, #30a8e4, #087eb8);
+  border-color: #087eb8;
+}
+
+.telegram-btn:hover {
+  background-color: #087eb8;
+  background-image: -webkit-linear-gradient(top, #2b95ca, #087eb8);
+  background-image: -moz-linear-gradient(top, #2b95ca, #087eb8);
+  background-image: linear-gradient(to bottom, #2b95ca, #087eb8);
+  border-color: #087eb8;
+}
+
+.discord-btn {
+  background-color: #8c9eff;
+  background-image: -webkit-linear-gradient(top, #8c9eff, #8292ea);
+  background-image: -moz-linear-gradient(top, #8c9eff, #8292ea);
+  background-image: linear-gradient(to bottom, #8c9eff, #8292ea);
+  border-color: #8292ea;
+}
+
+.discord-btn:hover {
+  background-color: #7e8fe6;
+  background-image: -webkit-linear-gradient(top, #7e8fe6, #8292ea);
+  background-image: -moz-linear-gradient(top, #7e8fe6, #8292ea);
+  background-image: linear-gradient(to bottom, #7e8fe6, #8292ea);
+  border-color: #8292ea;
 }
