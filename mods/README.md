@@ -2,7 +2,7 @@
 
 Here you will find multiple module implementations. All the examples are sorted by **difficulty**, and for a better understanding, you should  **start with the easiest one**.
 
-In every module example you will find a  _"README.md"_, at the root of the its folder which describes how it works, what it is used for and the pipeline in which the module is implemented. Every module source is commented for a better understandability.
+In every module example you will find a  _"README.md"_, at the root of its folder which describes how it works, what it is used for and the pipeline in which the module is implemented. Every module source is commented for a better understandability.
 
 Have fun !!
 
