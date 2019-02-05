@@ -21,8 +21,8 @@ namespace Pizzia {
 		/*
 		** You MUST use a constructor with no parameters
 		*/
-		IModule() {}
-		virtual ~IModule() {}
+		IModule() = default
+		virtual ~IModule() noexcept = default
 
 	public:
 		/*
