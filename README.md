@@ -1,6 +1,15 @@
 # Pizzia
 The Zia API for hungry developers :pizza:
 
+<a href="https://discord.gg/MBRSuk"><img src="https://img.shields.io/discord/541973907691798538.svg?label=Discord&style=flat"></a>
+<a href="https://thomfree.github.io/Pizzia/"><img src="https://img.shields.io/website-up-down-green-red/https/thomfree.github.io/Pizzia/.svg?style=flat"></a>
+<a href="https://github.com/ThomFree/Pizzia/issues"><img src="https://img.shields.io/github/issues/thomfree/Pizzia.svg?style=flat"></a>
+<a href="https://github.com/ThomFree/Pizzia/pulls"><img src="https://img.shields.io/github/issues-pr/thomfree/pizzia.svg?style=flat"></a>
+<img src="https://img.shields.io/github/last-commit/thomfree/pizzia.svg?style=flat">
+<a href="https://github.com/ThomFree/Pizzia/releases"><img src="https://img.shields.io/github/tag-date/thomfree/pizzia.svg?label=latest%20version&style=flat"></a>
+<a href="https://github.com/ThomFree/Pizzia/releases"><img src="https://img.shields.io/github/languages/code-size/thomfree/pizzia.svg?style=flat"></a>
+<a href="https://github.com/ThomFree/Pizzia/releases"><img src="https://img.shields.io/github/downloads/thomfree/pizzia/total.svg?style=flat"></a>
+
 ## [🇫🇷 French documentation and Github Page](https://thomfree.github.io/Pizzia/)
 
 ## [👑 Why vote for Pizzia during the elections ?](https://thomfree.github.io/Pizzia/faq.html)
