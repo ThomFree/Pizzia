@@ -24,3 +24,6 @@ The web server will act as **a mediator** with its modules (take a look at the [
 
 ## How to get started ?
 We have set up a tutorial (in french) to understand Pizzia and quickly start working on our API: you will find it [here](https://thomfree.github.io/Pizzia/start.html).
+
+## UML
+<center><img src="docs/UML.svg"></center>
